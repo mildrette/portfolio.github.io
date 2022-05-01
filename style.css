@@ -1,0 +1,23 @@
+body {
+  background: linear-gradient(to right, #b5b5f0, #feffff, #adb4dd);
+` font-family: ubuntu;  
+}
+
+
+  .glass{
+    width: 40rm;
+    height: 30rem;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgba(53, 52, 52, 0.2);
+    background-color: rgba(255,255,255,.2);
+    backdrop-filter:blur(5px);
+    margin: 5%;
+    padding: 10%;
+  }
+
+  img {
+    border-radius:50%; 
+    height: 50%;
+     width:30%
+  }
+  
