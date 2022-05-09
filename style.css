@@ -1,23 +1,56 @@
-body {
-  background: linear-gradient(to right, #b5b5f0, #feffff, #adb4dd);
-` font-family: ubuntu;  
-}
 
+  body {
+    font-family: Arial;
+    background-color: #034a8d;
+  }
 
+img {
+    border-radius:50%; 
+    height: 200px;
+    width:200px;
+  }
+  #logo{
+    width: auto;
+    height: 50px;
+  }
+
+  .flex{
+    display:inline-block;
+    padding-left:30px;
+    margin:20px;
+  }
+
+  .card {
+    width: 50%;
+    height: auto;
+    border-radius: 40px;
+    background-color: #f8c51f;
+    margin: 5%;
+    padding: 10%;
+    display: center;
+  }
+
+ 
+  @media screen and (max-width: 800px) {
+    .card {
+      width: 60%;
+      height: auto;
+      border-radius: 40px;
+      background-color: #f8c51f;
+      margin: 5%;
+      padding: 10%;
+  }
+  }
+
+  /*
   .glass{
     width: 40rm;
     height: 30rem;
     border-radius: 20px;
     box-shadow: 0 0 10px 0 rgba(53, 52, 52, 0.2);
-    background-color: rgba(255,255,255,.2);
+    background-color: #ffc300;
     backdrop-filter:blur(5px);
     margin: 5%;
     padding: 10%;
-  }
-
-  img {
-    border-radius:50%; 
-    height: 50%;
-     width:30%
-  }
-  
+  background: linear-gradient(to right, #b5b5f0, #feffff);
+*/
